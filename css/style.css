@@ -1,3 +1,88 @@
+/* EJEMPLO DE EXTEND */
+.parrafo, .parrafo2, .parrafo1 {
+  font-size: 20px;
+  font-family: "Lobster", cursive;
+  color: lightcoral;
+  text-align: center;
+}
 
+.parrafo1 {
+  color: lightcoral;
+}
+
+.parrafo2 {
+  color: brown;
+}
+
+.titulo1, .tituloMarron, .titulo {
+  font-family: "Lobster", cursive;
+  font-weight: bold;
+  font-size: 86px;
+}
+
+.titulo {
+  color: white;
+}
+
+.tituloMarron {
+  color: brown;
+}
+
+/* CLASES HECHAS ANTES DE VER SASS */
+body {
+  background-color: lightcoral;
+}
+
+main h2 {
+  font-family: "Lobster", cursive;
+  color: brown;
+  font-weight: bold;
+}
+
+footer a {
+  color: lightcoral;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: lightcoral;
+}
+
+.footer1 {
+  font-size: 22px;
+  font-family: "Lobster", cursive;
+  font-weight: bold;
+  color: lightcoral;
+  background-color: #FFD3D4;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+
+.navbarBg {
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+.imagenFondo {
+  background-image: url(https://www.clarin.com/img/2020/09/11/las-tortas-de-chocolate-entre___XxpFiUMHR_1256x620__1.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+
+.transicion1 {
+  width: 400px;
+  transition: all 1s;
+}
+
+.transicion1:hover {
+  width: 450px;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,105 @@
+body {
+    background-color: lightcoral;
+}
+
+/* header a {
+    color: lightcoral;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: 'Lobster', cursive;
+}
+ */
+main h2 {
+    font-family: 'Lobster', cursive;
+    color: brown;
+    font-weight: bold;
+}
+
+footer a {
+    color: lightcoral;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: lightcoral;
+}
+
+.footer1 {
+    font-size: 22px;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: lightcoral;
+    background-color: #FFD3D4;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-top: 15px;
+    
+}
+
+.titulo {
+    font-size: 86px;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+}
+
+.tituloMarron {
+    font-family: 'Lobster', cursive;
+    font-size: 86px;
+    color: brown;
+    font-weight: bold;
+}
+
+
+
+.navbarBg {
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+
+
+.imagenFondo{ 
+    background-image: url(https://www.clarin.com/img/2020/09/11/las-tortas-de-chocolate-entre___XxpFiUMHR_1256x620__1.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.parrafo1 {
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    color: lightcoral;
+
+
+}
+
+/* .imagen {
+    border: 2px solid white;
+    border-radius: 20px;
+} */
+
+.transicion1 {
+    width: 400px;
+    transition: all 1s; 
+}
+
+.transicion1:hover {
+    width: 450px;
+
+}
+
+.parrafo2 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: brown;
+    font-size: 20px;
+}
+
+
+

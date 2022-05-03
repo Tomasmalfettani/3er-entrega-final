@@ -1,5 +1,4 @@
 
-/* EJEMPLO DE EXTEND */
 .parrafo {
     font-size: 20px;
     font-family: 'Lobster', cursive;
@@ -35,25 +34,26 @@
 
 
 
-/* CLASES HECHAS ANTES DE VER SASS */
-
 body {
     background-color: lightcoral;
 }
 
-main h2 { 
+main { 
+    h2 { 
     font-family: 'Lobster', cursive;
     color: brown;
     font-weight: bold;
+    }
 }
 
-footer a {
+footer {
+    a {
     color: lightcoral;
     font-weight: bold;
-}
-
-footer a:hover {
-    color: lightcoral;
+    &:hover {
+        color: lightcoral;
+    }
+    }
 }
 
 .footer1 {
@@ -89,10 +89,9 @@ footer a:hover {
 .transicion1 {
     width: 400px;
     transition: all 1s; 
+    &:hover {
+        width: 450px;
+    }
 }
 
-.transicion1:hover {
-    width: 450px;
-
-}
 
